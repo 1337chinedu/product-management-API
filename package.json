@@ -1,0 +1,14 @@
+{
+  "name": "product-managemnt-api",
+  "version": "1.0.0",
+  "description": "Product Management using Node & Express Js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "chinedu.dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
