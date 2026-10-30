@@ -11,14 +11,10 @@ const createProduct = (req, res) => {
 
   productRecords.push(addProduct);
 
-  if (!id || !name) {
-    res.status(400).json({
-      code: 400,
-      message: "Product cannot be created!",
-    });
-  } else {
-    res.status(201).json("New Product Has Been Created Successfully!");
-  }
+  res.status(201).json({
+    code: 201,
+    message: "New Product Has Been Created Successfully!",
+  });
 };
 
 const products = (req, res) => {
