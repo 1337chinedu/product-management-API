@@ -18,11 +18,11 @@ A RESTful API built with Node.js and Express.js for managing product records. Th
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/products` | Create a product |
-| GET | `/products` | Retrieve all products |
-| GET | `/products/:id` | Retrieve a product by ID |
+| Method | Endpoint        | Description              |
+| ------ | --------------- | ------------------------ |
+| POST   | `/products`     | Create a product         |
+| GET    | `/products`     | Retrieve all products    |
+| GET    | `/products/:id` | Retrieve a product by ID |
 
 ## Getting Started
 
@@ -34,11 +34,11 @@ A RESTful API built with Node.js and Express.js for managing product records. Th
 
 1. Clone this repository:
 
-   `git clone YOUR_REPOSITORY_URL`
+   `git clone https://github.com/1337chinedu/product-management-API.git`
 
 2. Navigate into the project directory:
 
-   `cd YOUR_PROJECT_FOLDER`
+   `cd product-management-API`
 
 3. Install the dependencies:
 
